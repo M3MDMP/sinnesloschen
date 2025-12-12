@@ -13,12 +13,6 @@
   cursor: url('image/Win95DefBlack.png'), pointer;
 }
 
-:root {
-  --header-image: url('bflag.png');
-
-  /* colors */
-  --content: #000000;
-}
 .ascii {
     display: flex;
     justify-content: center;
@@ -106,7 +100,7 @@ h2 {
   font-family: 'Galmuri11';
   font-size: 15x;
   font-style: normal;
-        font-weight: 100;
+  font-weight: 400;
   color: #ffffff;
   text-align: center;
 }
@@ -115,12 +109,10 @@ h3 {
   font-family: 'Galmuri11';
   font-size: 15px;
   font-style: normal;
-        font-weight: 400;
-  -webkit-font-smoothing : none;
+  font-weight: 400;
   margin: 0;
   color: #ffffff;
   text-align: center;
-  -webkit-font-smoothing : none;
 }
 
 strong {
