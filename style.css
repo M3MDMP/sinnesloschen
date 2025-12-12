@@ -24,8 +24,6 @@ div  {
   margin-left: 260px;
   margin-right: 260px;
   justify-content: center;
-  white-space: auto;
-  overflow: auto;
 }
 
 body {
@@ -47,7 +45,8 @@ body {
 
 p {
   white-space: nomal;
-  margin: 40px;
+  padding: 10px;
+  line-height: 1.4;
 }
 
 
