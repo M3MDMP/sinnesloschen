@@ -7,11 +7,22 @@
     font-display: swap;
 }
 
+* {
+	cursor: url('image/Win95Def.png'), default;
+  cursor: url('image/Win95DefBlack.png'), pointer;
+}
+
+
 body, html {
 	background: #000;
 	color: lime;
 	font-family: 'Galmuri11', monospace;
 	font-size: 17px;
+}
+
+}
+#pt-br:hover{
+    color: rgb(27, 186, 27)
 }
 
 img {
