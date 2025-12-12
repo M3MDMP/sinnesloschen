@@ -1,0 +1,92 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'Galmuri11';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+body, html {
+	background: #000;
+	color: lime;
+	font-family: 'Galmuri11', monospace;
+	font-size: 17px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.page {
+	padding: 25px;
+}
+
+.header-image {
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+.wrapper {
+	margin: auto;
+	margin-top: 24px;
+	width: 753px;
+}
+
+.menu {
+  font-size: 20px;
+	text-align: center;
+	margin-bottom: 24px;
+	margin-top: 24px;
+  padding: 8px;
+}
+
+.menu a {
+	color: red;
+}
+
+.main {
+  text-align: center;
+	height: 480px;
+	width: 753px;
+	background-image: url('bg.jpg');
+	position: relative;
+}
+
+.main iframe {
+  text-align: center;
+	border: none;
+	border: none;
+	position: absolute;
+	top: 35px;
+	left: 7px;
+	width: 739px;
+	height: 439px;
+}
+
+
+h1 {
+  font-size: 20px;
+	border-bottom: 1px solid lime;
+	display: inline-block;
+	letter-spacing: 3px;
+  padding: 18px;
+  margin: 18px;
+  color: red;
+}
+
+h2 {
+  font-size: 20px;
+	border-bottom: 1px solid lime;
+	display: inline-block;
+	letter-spacing: 3px;
+  padding: 18px;
+  margin: 18px;
+  color: red;
+}
+
+a {
+	color: red;
+  text-decoration: none;
+}
