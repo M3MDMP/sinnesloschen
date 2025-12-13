@@ -26,6 +26,8 @@ div  {
   justify-content: center;
 }
 
+
+
 body {
   background-color: #000000;
   font-family: 'Galmuri11';
@@ -45,8 +47,8 @@ body {
 
 p {
   white-space: nomal;
-  padding: 10px;
-  line-height: 1.4;
+  margin-bottom: 60px;
+  line-height: 1.5;
 }
 
 
@@ -64,13 +66,14 @@ h2 {
   color: #ffffff;
   text-align: center;
   line-height: 100px;
+  margin-bottom: 10;
 }
 
 h3 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  margin: 10;
+  margin-bottom: 10;
   color: #ffffff;
   text-align: center;
 }
@@ -86,4 +89,3 @@ strong {
   padding: 10px;
   background-color: #000000;
 }
-
