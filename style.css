@@ -89,3 +89,7 @@ strong {
   padding: 10px;
   background-color: #000000;
 }
+
+    .img-dropshadowimage {
+      filter: drop-shadow(0px 0px 4px blue) drop-shadow(0px 5px 0px red)
+    }
