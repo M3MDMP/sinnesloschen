@@ -14,6 +14,36 @@
         <link rel="icon" type="image/png" href="/favicon.png">
 </head>
     <body>
+      
+     <audio id="myAudio" src="https://dl.dropbox.com/s/40ldfrh5q2wod30/Stardew%20Valley%20OST%20-%20Fall%20%28The%20Smell%20of%20Mushroom%29.mp3"></audio>
+
+    <img id="musicBtn" src="https://f2.toyhou.se/file/f2-toyhou-se/images/111766229_qtRd0GtpyaAzaYk.png?1765722061" alt="음악 제어 버튼">
+ 
+    <script>
+        const audio = document.getElementById("myAudio");
+        const btn = document.getElementById("musicBtn");
+        const stopImage = "https://graphic.neocities.org/1246603866141.gif"; 
+        const playImage = "https://f2.toyhou.se/file/f2-toyhou-se/images/111766229_qtRd0GtpyaAzaYk.png?1765722061";
+
+        btn.addEventListener("click", function() {
+            if (audio.paused) {
+
+                audio.play();
+
+                btn.src = playImage; 
+            } else {
+
+                audio.pause();
+
+                btn.src = stopImage; 
+            }
+        });
+
+        audio.addEventListener("ended", function() {
+            btn.src = stopImage;
+            console.log("노래 종료됨");
+        });
+    </script>
        <pre>┌──────────────────────────────────────────────────────────────┐</pre>
       <pre id="ascii-art" translate="no">
     _____   __    _________    __  _________
@@ -68,7 +98,7 @@
 
   <h3>[ 소지품 ]</h3> 
 </main>
-      
+
 <footer>
 <p style="color: gray">Ⓒ 2021. Kalawakan / Errorsizo</p>
 </footer>
