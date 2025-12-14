@@ -112,4 +112,13 @@ transform: translate(0, 10px);
 transform: translate(0, -0px); 
 } 
 }     
-    
+
+#musicBtn {
+  cursor: pointer;
+  width: 200px;
+  transition: transform 0.1s;
+ }
+#musicBtn:active {
+  transform: scale(0.95);
+}
+
