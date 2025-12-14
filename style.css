@@ -114,10 +114,11 @@ transform: translate(0, -0px);
 }     
 
 #musicBtn {
-  cursor: pointer;
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), auto;
   width: 200px;
   transition: transform 0.1s;
  }
+
 #musicBtn:active {
   transform: scale(0.95);
 }
