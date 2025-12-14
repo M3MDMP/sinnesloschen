@@ -54,9 +54,8 @@ p {
 
 footer {
   background-color: #000000;
-  /* background color for footer */
   text-align: center;
-  /* this centers the footer text */
+  font-size: 14px;
 }
 
 h2 {
@@ -107,8 +106,7 @@ transform: translate(0,  0px);
 } 
 50%  { 
 transform: translate(0, 10px); 
-} 
-110%   {
+} 100%   {
 transform: translate(0, -0px); 
 } 
 }     
