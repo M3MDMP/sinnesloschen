@@ -1,1 +1,75 @@
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* user styles */
+
+* {
+	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
+}
+
+.ascii {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'RoundedFixedsys';
+  font-size: 20px;
+  color: #dedede;
+  margin: 3em 5em;
+}
+
+pre {
+      font-family: 'RoundedFixedsys';
+}
+
+::selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+::-moz-selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+
+p {
+  white-space: nomal;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+a{
+  color:gray;
+  text-decoration: none;
+  font-family: 'RoundedFixedsys';
+  line-height: 1.0;
+}
+a:hover{
+    color:rgb(186, 26, 12);
+    text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'RoundedFixedsys';
+  font-style: normal;
+}
+
+h3 {
+  font-family: 'RoundedFixedsys';
+  font-style: normal;
+}
+
+strong {
+  color: #ffffff;
+}
 
