@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* user styles */
+
+* {
+	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
+}
+
+.ascii {
+    justify-content: center;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'RoundedFixedsys';
+  font-size: 19px;
+  color: #dedede;
+  text-align: center;
+}
+
+.ascii {
+    display: flex;
+    justify-content: center;
+}
+
+#ascii {
+    white-space: pre-wrap;
+    font-family: monospace;
+    color: #474747;
+    text-align: left;
+}
+
+p {
+  white-space: nomal;
+  line-height: 5;
+}
+
+
+::selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+::-moz-selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
