@@ -1,1 +1,91 @@
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* user styles */
 
+* {
+	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
+}
+
+.ascii {
+    display: flex;
+    justify-content: center;
+}
+
+div  {
+  width : auto;
+  height: auto;
+  justify-content: center;
+}
+
+pre {
+font-family: 'RoundedFixedsys';
+}
+
+body {
+  background-color: #000000;
+  font-family: 'RoundedFixedsys';
+  font-size: 20px;
+  color: #dedede;
+  margin: 2em 3em;
+}
+
+::selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+::-moz-selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+
+p {
+  white-space: nomal;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+
+footer {
+  background-color: #000000;
+  font-size: 14px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'RoundedFixedsys';
+  font-style: normal;
+  font-weight: bolder;
+  margin-top: 60px;
+}
+
+strong {
+  color: #ffffff;
+}
+
+
+
+#musicBtn {
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), auto;
+  width: auto;
+  transition: transform 0.1s;
+ }
+
+#musicBtn:active {
+  transform: scale(0.95);
+}
