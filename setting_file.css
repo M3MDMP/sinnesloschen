@@ -45,7 +45,7 @@ body {
 
 p {
   white-space: nomal;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   line-height: 1.6;
 }
 
@@ -56,23 +56,31 @@ footer {
   font-size: 14px;
 }
 
+h1 {
+  font-family: 'Galmuri11';
+  font-style: normal;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: center;
+  line-height: 300px;
+  margin-bottom: 10;
+}
+
 h2 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
   color: #ffffff;
   text-align: center;
-  line-height: 100px;
-  margin-bottom: 10;
+  line-height: 50px;
 }
 
 h3 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  margin-bottom: 10;
-  color: #ffffff;
   text-align: center;
+  line-height: 70px;
 }
 
 strong {
