@@ -60,7 +60,6 @@ h1 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  color: #ffffff;
   text-align: center;
   line-height: 300px;
   margin-bottom: 10;
@@ -70,7 +69,6 @@ h2 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  color: #ffffff;
   text-align: center;
   line-height: 50px;
 }
@@ -83,9 +81,6 @@ h3 {
   line-height: 70px;
 }
 
-strong {
-  color: #ffffff;
-}
 
 
     .img-dropshadowimage {
