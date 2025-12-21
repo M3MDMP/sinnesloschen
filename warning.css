@@ -89,7 +89,7 @@ body {
     cursor: pointer;
 }
 
-/* --- 푸터 영역 --- */
+
 .footer {
     border-top: 0;
 }
@@ -105,8 +105,9 @@ body {
 }
 
 .checkbox-wrapper label {
-    font-size: 14px;
+    font-size: 15px;
     color: #444;
+    margin-bottom: 10px;
 }
 
 .buttons {
@@ -166,6 +167,5 @@ button {
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #333;
-    font-weight: bold;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
