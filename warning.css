@@ -107,7 +107,8 @@ body {
 .checkbox-wrapper label {
     font-size: 15px;
     color: #444;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .buttons {
