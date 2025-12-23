@@ -25,7 +25,6 @@ div  {
 }
 
 
-
 body {
   background-color: #000000;
   font-family: 'Galmuri11';
@@ -82,6 +81,10 @@ h3 {
   line-height: 70px;
 }
 
+a:hover{
+    color:rgb(186, 26, 12);
+    text-decoration: none;
+}
 
 
     .img-dropshadowimage {
