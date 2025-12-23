@@ -81,6 +81,11 @@ h3 {
   line-height: 70px;
 }
 
+a{
+  color:blue;
+  text-decoration: none;
+}
+
 a:hover{
     color:rgb(186, 26, 12);
     text-decoration: none;
