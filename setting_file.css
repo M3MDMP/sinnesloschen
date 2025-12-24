@@ -1,7 +1,7 @@
 @import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
 
 @font-face {
-    font-family: 'Galmuri11';
+    font-family: 'Galmuri11',monospace;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Bold.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;
@@ -122,4 +122,8 @@ transform: translate(0, -0px);
 
 #musicBtn:active {
   transform: scale(0.95);
+}
+
+pre {
+font-family: monospace;
 }
