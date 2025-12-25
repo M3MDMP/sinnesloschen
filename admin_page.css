@@ -4,22 +4,27 @@
     font-weight: normal;
     font-display: swap;
 }
-/* user styles */
+
+@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);
 
 * {
 	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
   cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
 }
 
+.text {
+}
+
+
 .ascii {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 div  {
   width : auto;
   height: auto;
-  justify-content: center;
+  justify-content: left;
 }
 
 pre {
@@ -28,7 +33,6 @@ font-family: 'RoundedFixedsys';
 
 body {
   background-color: #000000;
-  font-family: 'RoundedFixedsys';
   font-size: 20px;
   color: #dedede;
   margin: 2em 3em;
@@ -45,10 +49,19 @@ body {
 
 p {
   white-space: nomal;
-  line-height: 1.6;
-  word-spacing: -3px;
-  font-size: 19px;
+  line-height: 1.5;
+  word-spacing: -4px;
+  font-size: 20px;
+  font-family: 'RoundedFixedsys';
 }
+
+.a {
+    font-family: 'Noto Serif KR', serif;
+    line-height: 1.6;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
 
 
 footer {
@@ -57,29 +70,23 @@ footer {
 }
 
 h1 {
-  font-style: normal;
-  font-weight: bolder;
-  color: #ffffff;
-}
-
-h2 {
-  font-style: normal;
-  font-weight: bolder;
-  color: #ffffff;
-  margin-top: 80px;
+  font-family: 'RoundedFixedsys';
+  margin: 150px auto 10px 0;
+  text-align: left;
 }
 
 h3 {
   font-family: 'RoundedFixedsys';
-  font-style: normal;
-  font-weight: bolder;
   margin-top: 60px;
+  margin-Bottom: 10px;
+  background-color: #0424c4;
+  display: inline-block; 
+  padding: 5px 10px;
 }
 
-strong {
-  color: #ffffff;
+h2 {
+  font-family: 'RoundedFixedsys';
 }
-
 
 
 #musicBtn {
