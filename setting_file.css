@@ -60,7 +60,6 @@ h1 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  text-align: center;
   line-height: 300px;
   margin-bottom: 10;
 }
@@ -69,15 +68,16 @@ h2 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  text-align: center;
   line-height: 50px;
+  background-color: #0424c4;
+  display: inline-block; 
+  padding: 0 5px;
 }
 
 h3 {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: bolder;
-  text-align: center;
   line-height: 70px;
 }
 
