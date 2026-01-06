@@ -1,1 +1,74 @@
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
 
+@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);
+
+* {
+	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
+  cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
+}
+
+
+div  {
+
+}
+
+pre {
+font-family: 'RoundedFixedsys';
+white-space: pre-wrap;
+}
+
+.a {
+    font-family: 'Noto Serif KR', serif;
+    line-height: 1.6;
+    word-spacing: 3px;
+    font-size: 18px;
+    white-space: pre-wrap;
+}
+
+body {
+  background-color: #000000;
+  font-size: 20px;
+  color: #dedede;
+  margin: 2em 5em;
+}
+
+::selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+::-moz-selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+
+p {
+    font-family: 'Noto Serif KR', serif;
+    line-height: 1.6;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+
+h1 {
+  font-family: 'Noto Serif KR';
+  margin: 150px auto 10px 0;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Noto Serif KR';
+  margin-top: 60px;
+  margin-Bottom: 10px;
+  background-color: #0424c4;
+  display: inline-block; 
+  padding: 5px 10px;
+}
+
+h2 {
+  font-family: 'Noto Serif KR';
+}
