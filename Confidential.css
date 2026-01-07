@@ -5,7 +5,7 @@
     font-display: swap;
 }
 
-@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
 
 * {
 	cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa.png'), default;
@@ -30,6 +30,13 @@ white-space: pre-wrap;
     white-space: pre-wrap;
 }
 
+.a2 {
+    font-family: 'RoundedFixedsys';
+    line-height: 1.3;
+    font-size: 19px;
+    white-space: pre-wrap;
+}
+
 body {
   background-color: #000000;
   font-size: 20px;
@@ -47,7 +54,7 @@ body {
 
 
 p {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'RoundedFixedsys', serif;
     line-height: 1.6;
     word-spacing: 3px;
     font-size: 18px;
@@ -55,19 +62,11 @@ p {
 
 
 h1 {
-  font-family: 'Noto Serif KR';
+  font-family: 'RoundedFixedsys';
   margin: 150px auto 10px 0;
   text-align: left;
 }
 
-h3 {
-  font-family: 'Noto Serif KR';
-  margin-top: 60px;
-  margin-Bottom: 10px;
-  background-color: #0424c4;
-  display: inline-block; 
-  padding: 5px 10px;
-}
 
 h2 {
   font-family: 'Noto Serif KR';
