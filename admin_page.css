@@ -70,6 +70,11 @@ a:link{
     text-decoration: none;
 }
 
+a:visited{
+    color:rgb(222, 222, 222);
+    text-decoration: none;
+}
+
 
 footer {
   background-color: #000000;
