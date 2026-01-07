@@ -12,9 +12,6 @@
   cursor: url('https://file.garden/Ze5oTzHwPg7iwG7n/WEBSITE/cursorwaa2.png'), pointer;
 }
 
-.text {
-}
-
 
 .ascii {
     display: flex;
@@ -29,6 +26,7 @@ div  {
 
 pre {
 font-family: 'RoundedFixedsys';
+color: #dedede;
 }
 
 body {
@@ -62,6 +60,15 @@ p {
     font-size: 18px;
 }
 
+a:hover{
+    color:rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+a:link{
+    color:rgb(222, 222, 222);
+    text-decoration: none;
+}
 
 
 footer {
