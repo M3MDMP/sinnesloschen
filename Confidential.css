@@ -75,13 +75,12 @@ h2 {
 
 a:hover{
     color:rgb(186, 26, 12);
-    text-decoration: none;
     text-decoration: underline;
 }
 
 a:visited{
-    color: #dedede;
-    text-decoration: none;
+    color:rgb(186, 26, 12);
+    text-decoration: underline;
 }
 
 a:active{
