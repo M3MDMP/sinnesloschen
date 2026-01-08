@@ -79,18 +79,16 @@ a:hover{
 }
 
 a:visited{
-    color:rgb(186, 26, 12);
+    color: #0000ff;
     text-decoration: underline;
 }
 
 a:active{
-    color: #dedede;
-    text-decoration: none;
+    color: #blue;
     text-decoration: underline;
 }
 
 a:link{
     color: #dedede;
-    text-decoration: none;
     text-decoration: underline;
 }
