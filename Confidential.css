@@ -74,12 +74,12 @@ h2 {
 }
 
 a:link{
-    color: #0000ff;
+    color:#dedede;
     text-decoration: underline;
 }
 
 a:visited{
-    color: #0000ff;
+    color:#dedede;
     text-decoration: underline;
 }
 
