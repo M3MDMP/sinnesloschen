@@ -65,11 +65,33 @@ h1 {
   font-family: 'RoundedFixedsys';
   margin: 150px auto 10px 0;
   text-align: left;
-  text-decoration: underline;
   font-style: oblique;
 }
 
 
 h2 {
   font-family: 'Noto Serif KR';
+}
+
+a:hover{
+    color:rgb(186, 26, 12);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #dedede;
+    text-decoration: none;
+}
+
+a:active{
+    color: #dedede;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:link{
+    color: #dedede;
+    text-decoration: none;
+    text-decoration: underline;
 }
