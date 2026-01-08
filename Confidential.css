@@ -73,14 +73,17 @@ h2 {
   font-family: 'Noto Serif KR';
 }
 
-a:hover{
+a:link{
+    color: #0000ff;
     text-decoration: underline;
 }
 
 a:visited{
     color: #0000ff;
+    text-decoration: underline;
 }
 
-a:link{
-    color: #0000ff;
+a:hover{
+    color:rgb(186, 26, 12);
+    text-decoration: underline;
 }
