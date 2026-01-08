@@ -82,13 +82,3 @@ a:visited{
     color: #0000ff;
     text-decoration: underline;
 }
-
-a:active{
-    color: #blue;
-    text-decoration: underline;
-}
-
-a:link{
-    color: #dedede;
-    text-decoration: underline;
-}
