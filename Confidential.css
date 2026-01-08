@@ -74,16 +74,13 @@ h2 {
 }
 
 a:hover{
-    color:rgb(186, 26, 12);
     text-decoration: underline;
 }
 
 a:visited{
     color: #0000ff;
-    text-decoration: underline;
 }
 
 a:link{
     color: #0000ff;
-    text-decoration: underline;
 }
