@@ -59,7 +59,7 @@ commandInput.addEventListener("keydown", async function (e) {
                 }
             }
         } else {
-            outputDiv.innerText = `해당 명령어는 존재하지 않음 : [ ${sanitizedInput} ] 명령어 목록을 보려면 [ help ] 를 입력하십시오.`;
+            outputDiv.innerText = `해당 명령어는 존재하지 않음 : [ ${sanitizedInput} ] \n명령어 목록을 보려면 [ help ] 를 입력하십시오.`;
         }
         commandInput.value = ""; 
     }
