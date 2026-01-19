@@ -21,7 +21,7 @@ const commands = {
     profile: "프로필로 이동 중...",
 friends: function() {
     setTimeout(() => {
-        outputDiv.innerText += "\n\n친구 목록에 등록된 유저가 없습니다.";
+        outputDiv.innerText += "\n\n1. 엑시트";
     }, 1500); 
     return "친구 목록 불러오는 중..."; 
 },
