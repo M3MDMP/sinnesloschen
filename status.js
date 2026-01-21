@@ -21,7 +21,7 @@ const commands = {
     profile: "프로필로 이동 중...",
 friends: function() {
     setTimeout(() => {
-        outputDiv.innerText += "\n\n1. 엑시트 \n2. XYZ \n3. 이버스";
+        outputDiv.innerText += "\n\n1. 엑시트 \n2. XYZ \n3. 이버스 \n4. 디프다";
     }, 1500); 
     return "친구 목록 불러오는 중..."; 
 },
